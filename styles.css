@@ -1,0 +1,132 @@
+/*
+
+body {
+    height: 100vh;
+    background-color: #f1bbbb;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bodyConvert {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    background-color: #fbfbfb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px; !* Add some margin between profile cards *!
+}
+
+.profileImg {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.name {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.title {
+    color: red;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.bio {
+    font-size: 0.9em;
+    color: #772f2f;
+    margin: 10px 0;
+}
+
+.socialLinks a {
+    text-decoration: none;
+    color: #0073e6;
+    margin: 0 10px;
+}
+
+.socialLinks a:hover {
+    text-decoration: underline;
+    text-blink: #dc3545;
+}
+
+
+#btn{
+    background-color: #6bd30a;
+}*/
+
+body {
+    height: 100vh;
+    background-color: #f1bbbb;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bodyConvert {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profileCard {
+    background-color: #fbfbfb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.profileImg {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.name {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.title {
+    color: red;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.bio {
+    font-size: 0.9em;
+    color: #772f2f;
+    margin: 10px 0;
+}
+
+.socialLinks a {
+    text-decoration: none;
+    color: #0073e6;
+    margin: 0 10px;
+}
+
+.socialLinks a:hover {
+    text-decoration: underline;
+}
+
+#btn, #resBtn {
+    margin: 10px;
+}
